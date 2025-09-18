@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+<title>Vote - ExoSpace</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header class="mc-header">
+  <img src="images/exologo.png" alt="Server Logo" class="mc-logo">
+  <div class="mc-title-group">
+    <div class="mc-title">ExoSpace Network</div>
+    <div class="mc-motto">Sky-Mining since 2020!</div>
+  </div>
+  <div class="mc-ip-box">
+    <span class="mc-ip-label">Server IP:</span>
+    <span class="mc-ip">play.exospace.net</span>
+    <button class="mc-copy-btn" id="copy-ip-btn" onclick="copyIP()">Copy</button>
+  </div>
+</header>
+
+<nav class="mc-navbar">
+  <a href="index.html">Home</a>
+  <a href="https://store.exospace.net">Store</a>
+  <a class="active" href="vote.html">Vote</a>
+  <a href="https://discord.gg/hBg3Rp7ExG">Discord</a>
+</nav>
+
+<main>
+  <section class="mc-section mc-vote">
+    <h1>Vote for ExoSpace Network</h1>
+    <p>Support the server by voting! Voting helps us grow and rewards you with in-game perks.</p>
+    <ul>
+      <li><a href="#">MinecraftServers.org</a></li>
+      <li><a href="#">Planet Minecraft</a></li>
+      <li><a href="#">TopG.org</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="mc-footer">
+  ExoSpace Network &mdash; Not affiliated with Mojang or Microsoft
+</footer>
+
+<script>
+function copyIP() {
+  const btn = document.getElementById('copy-ip-btn');
+  navigator.clipboard.writeText('play.exospace.net');
+  const original = btn.textContent;
+  btn.textContent = 'Copied!';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = original;
+    btn.disabled = false;
+  }, 2000);
+}
+</script>
+</body>
+</html>

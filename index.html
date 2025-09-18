@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+<title>ExoSpace</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+
+<!-- Minecraft Server Website Template -->
+<header class="mc-header">
+  <img src="images/exologo.png" alt="Server Logo" class="mc-logo">
+  <div class="mc-title-group">
+    <div class="mc-title">ExoSpace Network</div>
+    <div class="mc-motto">Sky-Mining since 2020!</div>
+  </div>
+  <div class="mc-ip-box">
+    <span class="mc-ip-label">Server IP:</span>
+    <span class="mc-ip">play.exospace.net</span>
+    <button class="mc-copy-btn" id="copy-ip-btn" onclick="copyIP()">Copy</button>
+</header>
+
+<script>
+function copyIP() {
+  const btn = document.getElementById('copy-ip-btn');
+  navigator.clipboard.writeText('play.exospace.net');
+  const original = btn.textContent;
+  btn.textContent = 'Copied!';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = original;
+    btn.disabled = false;
+  }, 2000);
+}
+</script>
+  </div>
+</header>
+
+<nav class="mc-navbar">
+  <a class="active" href="index.html">Home</a>
+  <a href="https://store.exospace.net">Store</a>
+  <a href="vote.html">Vote</a>
+  <a href="https://discord.gg/hBg3Rp7ExG">Discord</a>
+</nav>
+
+<main>
+  <section class="mc-section mc-welcome">
+    <h1>Welcome to the ExoSpace Network!</h1>
+    <p>Welcome to the ExoSpace Network — the home of Sky-Mining! Dive into our unique prison-style gameplay, compete in PvP events, and enjoy weekly giveaways. Whether you want to fight, mine, or make new friends, you’ll find your place here!</p>
+  </section>
+  <section class="mc-section mc-features">
+    <h2>Features</h2>
+    <ul>
+      <li>PvP & Events</li>
+      <li>Sky-Mining (prison-style gameplay)</li>
+      <li>Weekly Events & Giveaways</li>
+      <li>Friendly Staff & Community</li>
+    </ul>
+  </section>
+  <section class="mc-section mc-join">
+    <h2>How to Join</h2>
+    <ol>
+      <li>Open Minecraft (Java Edition 1.21.4)</li>
+      <li>Click <b>Multiplayer</b> &gt; <b>Add Server</b>.</li>
+      <li>Enter the IP: <span class="mc-ip-inline">play.exospace.net</span></li>
+      <li>Join and start your adventure!</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="mc-footer">
+  ExoSpace Network &mdash; Not affiliated with Mojang or Microsoft
+</footer>
+
+
+</body>
+</html> 
