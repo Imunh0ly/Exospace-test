@@ -1,0 +1,320 @@
+/* Main Title Style */
+.main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #222;
+    text-shadow: 0 2px 8px #fff, 0 0px 10px #afaff0;
+    margin: 30px 0 10px 0;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+/* Subtitle Style */
+.subtitle {
+    font-size: 1.3em;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: left;
+    text-shadow: 0 1px 4px #fff;
+}
+
+/* Content Box Style */
+.content-box {
+    background: rgba(175, 175, 240, 0.15);
+    border-radius: 12px;
+    padding: 24px 32px;
+    margin: 20px 0;
+    box-shadow: 0 2px 12px rgba(175,175,240,0.10);
+    color: #222;
+    font-size: 1.1em;
+    max-width: 700px;
+    text-align: left;
+}
+
+/* ExoSpace Network: Dark Grey & Purple Color Scheme */
+body {
+    background: linear-gradient(135deg, #23232b 0%, #3a2050 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #f0e6fa;
+}
+
+.mc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(35, 35, 43, 0.98);
+    padding: 18px 32px 18px 18px;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 4px 24px rgba(35,35,43,0.18);
+    margin-bottom: 18px;
+    position: relative;
+}
+.mc-logo {
+    height: 64px;
+    width: 64px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px #0002;
+}
+.mc-title-group {
+    flex: 1;
+    margin-left: 24px;
+}
+.mc-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #b97fff;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 2px #000;
+}
+.mc-motto {
+    color: #ffe066;
+    font-size: 1.1em;
+    margin-top: 4px;
+    text-shadow: 0 1px 4px #222;
+}
+.mc-ip-box {
+    background: #3a2050;
+    color: #b97fff;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px #0002;
+}
+.mc-ip-label {
+    color: #fff;
+    font-weight: bold;
+}
+.mc-ip {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background: #b97fff;
+    color: #232323;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 1.1em;
+}
+.mc-copy-btn {
+    background: #ffe066;
+    color: #3a2050;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.2s;
+    font-weight: bold;
+}
+.mc-copy-btn:hover {
+    background: #f5e96a;
+}
+
+.mc-navbar {
+    display: flex;
+    justify-content: center;
+    background: rgba(185,127,255,0.95);
+    border-radius: 10px;
+    margin: 0 0 32px 0;
+    box-shadow: 0 2px 12px #b97fff33;
+    padding: 0 0 0 0;
+}
+.mc-navbar a {
+    color: #3a2050;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin: 0 8px;
+    transition: background 0.2s, color 0.2s;
+    text-shadow: 0 1px 2px #000;
+}
+.mc-navbar a.active, .mc-navbar a:hover {
+    background: #3a2050;
+    color: #b97fff;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.mc-section {
+    background: rgba(58,32,80,0.92);
+    border-radius: 14px;
+    box-shadow: 0 2px 12px #b97fff22;
+    margin-bottom: 32px;
+    padding: 32px 28px 24px 28px;
+}
+.mc-section h1, .mc-section h2 {
+    color: #b97fff;
+    margin-top: 0;
+    text-shadow: 0 1px 2px #000;
+}
+.mc-section ul, .mc-section ol {
+    font-size: 1.1em;
+    color: #f0e6fa;
+    margin-left: 24px;
+}
+.mc-ip-inline {
+    font-family: 'Consolas', 'Courier New', monospace;
+    background: #b97fff;
+    color: #3a2050;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+.mc-footer {
+    text-align: center;
+    color: #f0e6fa;
+    background: #3a2050;
+    padding: 18px 0 18px 0;
+    border-radius: 18px 18px 0 0;
+    margin-top: 40px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 12px #b97fff33;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.topnav {
+    background-color: rgba(175, 175, 240, 0.3); /* semi-transparent */
+    overflow: hidden;
+    border: none;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: calc(100% - 60px); /* leave space for logo */
+    float: left;
+    box-sizing: border-box;
+    margin-right: 60px; /* space for logo */
+}
+
+.topnav a  {
+    float: left;
+    color: #222222;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 0 1px 4px #fff, 0 0px 10px #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: inherit;
+}
+
+.topnav a:hover {
+    background-color: #9797f7;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topnav a.active {
+    background-color: #7f7fe7;
+    color: #222222;
+    text-shadow: 0 1px 4px #fff, 0 0px 10px #fff;
+    width: auto;
+    float: left;
+}
+/* ===========================
+   Mobile-friendly patch — PUT AT END OF CSS
+   =========================== */
+
+/* 0) Global helpers */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; overflow-x: hidden; }
+
+/* Merge/keep a single body rule — if you have two, remove duplicates */
+body {
+    background: linear-gradient(135deg, #23232b 0%, #3a2050 100%);
+    color: #f0e6fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main container responsive */
+main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+/* Header: allow wrapping, shrinking, and avoid overflow */
+.mc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 18px;
+    flex-wrap: nowrap; /* will switch to wrap on smaller screens */
+}
+
+/* Logo and title behavior */
+.mc-logo { flex: 0 0 64px; width: 64px; height: 64px; min-width: 48px; border-radius: 12px; }
+.mc-title-group { flex: 1 1 auto; min-width: 0; } /* min-width:0 is important so text can truncate */
+.mc-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Navbar and topnav use flexible layout (avoid float-based width calc) */
+.mc-navbar { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; width: auto; }
+.mc-navbar a { box-sizing: border-box; }
+
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px 0;
+    padding: 4px;
+    float: none; /* remove float to avoid weird wrapping/overflow */
+}
+
+/* Make IP box and inline IPs wrap nicely */
+.mc-ip-box { flex: 0 0 auto; white-space: nowrap; }
+.mc-ip, .mc-ip-inline { max-width: 100%; display: inline-block; overflow: hidden; text-overflow: ellipsis; }
+
+/* Avoid long-word overflow in content */
+.mc-section, .content-box, .mc-footer { overflow-wrap: break-word; word-break: break-word; }
+
+/* Content box responsive cap */
+.content-box { max-width: 100%; }
+
+/* ===========================
+   Responsive breakpoints
+   =========================== */
+
+/* Tablet-ish and down */
+@media (max-width: 900px) {
+    .mc-header { flex-wrap: wrap; text-align: center; padding: 14px; }
+    .mc-title-group { margin-left: 0; margin-top: 8px; }
+    .mc-ip-box { width: 100%; justify-content: center; margin-top: 8px; }
+    .mc-navbar { width: 100%; padding: 8px 0; }
+    .mc-navbar a { padding: 10px 14px; width: calc(50% - 18px); margin: 4px; text-align: center; }
+    .topnav { width: 100%; margin-right: 0; }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .main-title { font-size: 1.4em; text-align: center; }
+    .subtitle { font-size: 1em; text-align: center; }
+    .mc-title { font-size: 1.4em; }
+    .mc-motto { font-size: 0.95em; }
+    .mc-logo { width: 48px; height: 48px; }
+    .mc-navbar a { width: 100%; padding: 10px; margin: 4px 0; }
+    .content-box { padding: 12px 14px; font-size: 0.98em; }
+    .mc-footer { font-size: 0.9em; padding: 12px 8px; }
+}
